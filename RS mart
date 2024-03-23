@@ -1,0 +1,152 @@
+# RS mart -Dashboard
+
+### Dashboard Link : https://app.powerbi.com/view?r=eyJrIjoiM2RmYzM5YWMtZWY0Yi00Yzc1LWEyY2UtMGI0OTU0MWVjM2U3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9
+
+## Problem Statement
+
+This dashboard helps the company to understand the sales for the company. It analyze the total order, total profit for the company. Through the dashboard they can analyze the sales which is denoted by the shipping mode and it also shows the sales by sub-category to improve the category based on their sales.
+Since, the number of profit will be hign on 2018 and the number of sales will be higher on 2020. 
+
+Also since, the shipping mode is high in 
+Economy(60.15%)
+
+### Steps followed 
+
+- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
+- Step 2 : We came to know that Excel sheet contains two pages of dataset, so we can combine our data and check the relation between the data using Cardinality.
+- Step 3 : Let's starting off power BI dashboard journey. 
+- Step 4 : In the report view, under the view tab, theme was selected. 
+- Step 5 : For calculating the sum of sales based on their customer we can insert the table.
+- Step 6 : A pie chart is inserted to analyze the sum of sales & sum of profit bassed on the different region of the company.
+- Step 7 : Since the data contains various ship mode, to analyze it based on the %GT of sum of sales by using treemap.
+- Step 8 : Adding a combo chart of line and clusterd column for analyzing the order date by sum of profit in line and sum of sales in the column, it show's the clear visual of order date by sales & profit.
+- Step 9 : For visual the total sales by sub-category we can add clusterd bar chart. 
+- Step 10 : A Azure map also created to show the sales by the location and it will represnt the sales by country, State & cities. 
+
+Snap of a Azure map by different location.
+
+![Snap_map](https://github.com/ravicod/Power-BI-Projects/assets/163747594/514ba4de-0f3c-426a-987c-d80c8c636391)
+
+
+- Step 11 : A slicer is used to represent the data by different order date and ship date 
+
+- Step 12 : To show the total sales, total profit, total quantity & total order for the company cards are inserted.
+
+Snap of the total sales.
+
+![Total_sales](https://github.com/ravicod/Power-BI-Projects/assets/163747594/5c975c21-f6d8-4c26-baba-eb894fa61d02)
+
+Snap of total profit.
+
+![total profit ](https://github.com/ravicod/Power-BI-Projects/assets/163747594/b29b632b-7053-4b11-84f4-4bf528edf51c)
+
+Snap of total quantity.
+
+![total qunatiy](https://github.com/ravicod/Power-BI-Projects/assets/163747594/151b2765-e622-4ea1-bd28-1c6cfb3f531a)
+
+Snap of total order.
+
+![total oder ](https://github.com/ravicod/Power-BI-Projects/assets/163747594/64da7cbe-e58c-4223-8126-d548b055cb12)
+
+
+- Step 13 : In the report view ,Under the insert tab add the logo of the RS mart company 
+- Step 14 : In the report view, under the insert tab insert a text box were added to the canvas, which we can name it as RS mart dashboard.
+        
+- Step 15 : Adding the page 2 of customer details which is the drill Through the page 1 of the customer name.
+        
+ - Step 16 : It also shows the Sales, Profit,Discount & Total return , from the above total return are found using the filters of total returns by return status, and it hide by the dashboard view the changes will be done once we choose the customer name in the main dashboard.
+ 
+ - Step 17 : The report was then published to Power BI Service.
+ 
+ 
+![Publish_message](https://github.com/ravicod/Power-BI-Projects/assets/163747594/64edc12f-a1f4-4937-afbf-e07beb345d3f)
+
+
+# Snapshot of Dashboard (Power BI Service)
+
+![Dashboard_snap](https://github.com/ravicod/Power-BI-Projects/assets/163747594/039e8bd6-6cbc-4234-9ae8-c5ab61c56bc0)
+
+
+ 
+ # Report Snapshot (Power BI DESKTOP)
+
+ 
+![Report](https://github.com/ravicod/Power-BI-Projects/assets/163747594/310624c3-ed13-4c51-95ee-e26b71e05a33)
+
+
+# Insights
+
+A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+
+Following inferences can be drawn from the dashboard;
+
+### [1] Total Number of Customers = 792
+
+  
+           
+### [2] category & sub-category
+
+ Category 
+   
+    1.Office Supplies 
+    2.Furniture 
+    3.Technology 
+
+Sub - Category
+    
+    1.Accessories 
+    2.Applicances
+    3.Art 
+    4.Binders
+    5.Bookcases
+    6.Chairs
+    7.Copiers
+    8.Envelops
+    9.Fasteners
+    10.Furnishing 
+    11.Labels
+    12.Machines
+    13.Papers
+    14.Phones
+    15.Storage 
+    16.Supplies 
+    17.Tables
+
+  
+  ### [3] Ship mode
+  
+      1.Economy
+      2.Economy plus
+      3.Immediate
+      4.Priority
+
+ ### [4] Some other insights
+ 
+ ### Region 
+        1.Central 
+        2.North 
+        3.South 
+ 
+ ### Segment 
+        1.Consumers
+        2.Corporate
+        3.Home Office
+        
+### Country 
+        1.Austria 
+        2.Belgium
+        3.Denmark 
+        4.Finland
+        5.France
+        6.Germany 
+        7.Ireland
+        8.Italy 
+        9.Netherlands
+        10.Norway
+        11.Portugal
+        12.Spain 
+        13.Sweden
+        14.Switzerland
+        15.United Kingdom 
+
+
